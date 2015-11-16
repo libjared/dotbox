@@ -1,0 +1,13 @@
+{
+  "name": "dotbox",
+  "version": "0.0.1",
+  "description": "Dots and boxes",
+  "author": "libjared",
+  "dependencies": {
+    "express": "^4.13.3",
+    "paper": "0.9.x",
+    "socket.io": "1.3.x"
+  },
+  "private": true,
+  "license": "MIT"
+}

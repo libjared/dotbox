@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+		body {
+			background-color: #000000;
+		}
+		h1 {
+			text-decoration: underline;
+			color: #8800ff;
+		}
+		#can {
+			width: 352px;
+			height: 352px;
+		}
+		#canwrap {
+			width: 352px;
+			height: 352px;
+			border-style: solid;
+			border-color: #9c8aa5;
+			display: inline-block;
+		}
+		.center {
+			width: 100%;
+			text-align: center;
+		}
+	</style>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/paper/paper-full.js"></script>
+	<script src="client.js" type="text/paperscript" canvas="can"></script>
+</head>
+<body>
+	<div class="center">
+		<h1>Dots and Boxes</h1>
+		<!--div id="canwrap"-->
+			<canvas width="4096" height="4096" id="can">Canvas?</canvas>
+		<!--/div-->
+	</div>
+</body>
+</html>
